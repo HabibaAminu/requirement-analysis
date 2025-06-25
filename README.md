@@ -78,3 +78,27 @@ The requirement analysis phase includes several important activities that ensure
 - Ensures that all requirements are correct, complete, and agreed upon by all stakeholders.
 - Confirms that documented requirements truly reflect user needs.
 - Techniques include reviews, walkthroughs, inspections, and formal approval processes.
+
+## Types of Requirements
+
+### Functional Requirements
+
+These are the core features and actions the booking system must support.
+
+- User registration and login
+- Service search and filtering
+- Create/view/cancel bookings
+- Admin: manage availability
+- Auto email confirmations
+- Booking history/reporting
+
+### Non-Functional Requirements
+
+These define performance and quality standards the system must meet.
+
+- Fast load times (≤ 2s per page)
+- High availability (99.9%)
+- Secure data handling (encryption)
+- Responsive across devices
+- Scalable for 500+ users
+- Accessible UI (WCAG compliant)
