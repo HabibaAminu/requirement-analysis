@@ -44,3 +44,37 @@ Requirements serve as the baseline for test planning. They allow the QA team to:
 - Verify that features meet expectations
 - Ensure no requirement is overlooked
 - Build test cases directly linked to user needs
+
+#### Key Activities in Requirement Analysis
+
+The requirement analysis phase includes several important activities that ensure the software being developed meets user and business needs. Below are the five core activities and what each involves:
+
+### 1. Requirement Gathering
+
+- Involves collecting information from stakeholders (clients, users, managers) about their needs and expectations.
+- Focuses on identifying high-level business goals and user requirements.
+- Common methods: interviews, surveys, questionnaires, brainstorming sessions.
+
+### 2. Requirement Elicitation
+
+- It involves drawing out hidden, implied, or unclear requirements.
+- Helps uncover real needs that users may not express directly.
+- Techniques include observation, use case development, workshops, and prototyping.
+
+### 3. Requirement Documentation
+
+- Involves organizing the gathered and elicited information into a formal document.
+- Ensures that requirements are clearly written, traceable, and understandable to all stakeholders.
+- Common artifacts: Software Requirement Specification (SRS), user stories, use case diagrams.
+
+### 4. Requirement Analysis and Modeling
+
+- Focuses on examining and refining the documented requirements for completeness, consistency, and feasibility.
+- May include modeling using diagrams (e.g., flowcharts, UML diagrams) to visualize system behavior.
+- Helps identify conflicting, duplicate, or vague requirements before development begins.
+
+### 5. Requirement Validation
+
+- Ensures that all requirements are correct, complete, and agreed upon by all stakeholders.
+- Confirms that documented requirements truly reflect user needs.
+- Techniques include reviews, walkthroughs, inspections, and formal approval processes.
