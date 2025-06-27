@@ -102,3 +102,36 @@ These define performance and quality standards the system must meet.
 - Responsive across devices
 - Scalable for 500+ users
 - Accessible UI (WCAG compliant)
+
+## Use Case Diagrams
+
+Use Case Diagrams are a type of Unified Modeling Language (UML) diagram used to visually represent the interactions between users (actors) and a system. They show what the system does (not how), focusing on the functional requirements from the user's perspective.
+
+### Benefits of Use Case Diagrams
+
+1; Clear Understanding of System Scope
+
+- Helps stakeholders visualize what functionality will (and won’t) be included.
+
+- Defines system boundaries early in the development process.
+
+2; Improved Communication
+
+- Provides a common visual language that both technical and non-technical team members can understand.
+- Reduces misunderstandings between developers, clients, and users.
+
+3; Helps Identify Functional Requirements
+
+- Each use case corresponds directly to a functional requirement.
+- Acts as a checklist during requirement validation and implementation.
+
+4; Simplifies Test Case Creation
+
+- Helps testers understand the different ways users interact with the system.
+- Can guide the creation of user-centric test scenarios.
+
+5; Supports Better Design
+
+- By knowing how users interact with the system, developers can structure the backend and UI more effectively.
+
+![Booking Management Use Case Diagram](alx-booking-uc.png)
