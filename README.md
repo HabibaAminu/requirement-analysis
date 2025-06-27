@@ -135,3 +135,71 @@ Use Case Diagrams are a type of Unified Modeling Language (UML) diagram used to 
 - By knowing how users interact with the system, developers can structure the backend and UI more effectively.
 
 ![Booking Management Use Case Diagram](alx-booking-uc.png)
+
+## Acceptance Criteria
+
+Importance of Acceptance Criteria in Requirement Analysis
+Acceptance Criteria are predefined conditions that a software feature or requirement must meet to be accepted by the end-user, stakeholder, or product owner. They act as a bridge between requirement analysis and validation, ensuring clarity and shared understanding.
+
+Here's Why It Matters:
+
+1. Define Done Clearly
+
+- They specify when a feature is complete and ready for delivery.
+- Prevents ambiguity by setting measurable expectations for each requirement.
+
+2; Align Stakeholders and Developers
+
+- Ensures that business needs are accurately translated into technical deliverables.
+- Helps teams agree on what success looks like for each feature.
+
+3; Improve Communication
+
+- Simplifies discussions between product owners, designers, developers, and testers.
+- Serves as a contract of understanding between clients and the development team.
+
+4; Guide Development and Testing
+
+- Developers use acceptance criteria to implement features correctly.
+- QA teams use them to create test cases and verify functionality against expected behavior.
+
+5; Reduce Rework and Scope Creep
+
+- Well-written criteria minimize the risk of misunderstanding requirements.
+- Keeps the team focused on delivering exactly what was requested, nothing more, nothing less.
+
+📝 Example (Booking System):
+User Story: As a customer, I want to book a hotel room so I can reserve accommodation in advance.
+Acceptance Criteria:
+
+- Booking must not proceed without selecting a valid date range.
+- The system must display a confirmation message after booking.
+- A confirmation email should be sent automatically to the customer.
+
+### Example (Checkout feature in a Booking System)
+
+User Story:
+As a customer, I want to securely complete the checkout process after selecting a service or booking, so I can confirm and pay for my reservation.
+
+### The Acceptance Criteria
+
+**Payment Option Displayed**
+. The system must display available payment methods (e.g., credit/debit card, PayPal)during checkout.
+
+**Booking Summary Visible**
+. The user must see a clear summary of the booking, including service name, date, time, duration, and total price.
+
+**Required Fields Validation**
+. The system must not proceed to payment unless all mandatory fields (e.g., billing info, contact details) are filled in correctly.
+
+**Secure Payment Processing**
+. Payment details must be submitted over a secure (HTTPS) connection and handled by a trusted payment gateway.
+
+**Confirmation of Payment**
+. After a successful payment, the user must see a confirmation message or screen.
+
+**Email Confirmation Sent**
+. A confirmation email containing the booking details and receipt must be sent automatically to the user’s registered email.
+
+**Error Handling**
+. If payment fails, an appropriate error message must be displayed, and the user must have the option to retry.
